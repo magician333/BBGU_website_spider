@@ -1,7 +1,6 @@
 # 北部湾大学官网数据统计
 # 媒体聚焦自动统计
 # 需要设置起始页和终止目录页
-# 北部湾大学全媒体中心-陈哲轩
 
 import requests
 from bs4 import BeautifulSoup
@@ -10,7 +9,7 @@ import colorama
 import random
 import re
 
-base_url = "http://www.qzhu.edu.cn"
+base_url = "http://www.bbgu.edu.cn"
 
 
 start_pages = 94
