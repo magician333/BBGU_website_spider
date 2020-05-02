@@ -2,7 +2,6 @@
 # 支持学校要闻和科教动态栏目
 # 默认栏目为学校要闻，需要设置起始目录页和终止目录页
 # 自动导出到Excel
-# 北部湾大学全媒体中心-陈哲轩
 
 import requests
 from bs4 import BeautifulSoup
@@ -11,7 +10,7 @@ import colorama
 import random
 import re
 
-base_url = "http://www.qzhu.edu.cn"
+base_url = "http://www.bbgu.edu.cn"
 
 news = "xxyw"    # 学校要闻1038,科技动态1040
 if news == "xxyw":
